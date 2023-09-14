@@ -480,19 +480,42 @@ header {
 /* CSS untuk komponen card */
 .card {
     border: 1px solid #ccc;
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* CSS untuk gambar */
+.card-content {
+    display: flex;
+    align-items: center; /* Untuk mengatur vertikal align */
+}
+
 .card img {
     max-width: 25%;
-    height: auto;
+    margin-right: 16px;
 }
 
+h3 {
+    margin: 10;
+    font-weight: bold;
+}
+
+.text-right {
+    flex-grow: 1;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.quantity {
+    margin-left: 10px;
+    font-size: 15px;
+}
 /* CSS untuk garis pemisah */
 hr {
     border: none;
@@ -500,12 +523,17 @@ hr {
     margin: 15px 0;
 }
 
-/* CSS untuk teks total harga */
-.total-harga p {
-    font-size: 18px;
+.harga-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
     font-weight: bold;
-    text-align: left; /* Menjepit teks ke kiri */
-    margin: 20px 0;
+}
+
+.harga-angka {
+    margin-left: 10px;
+    font-size: 20px;
 }
 
 .button-container {
@@ -516,6 +544,7 @@ hr {
 .button-container {
     display: flex;
     justify-content: space-between;
+    margin: 15px;
 }
 
 .button-kembali Button {
