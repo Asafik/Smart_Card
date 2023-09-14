@@ -1,7 +1,10 @@
 {
     "name": "laravel/ui",
     "description": "Laravel UI utilities and presets.",
-    "keywords": ["laravel", "ui"],
+    "keywords": [
+        "laravel",
+        "ui"
+    ],
     "license": "MIT",
     "authors": [
         {

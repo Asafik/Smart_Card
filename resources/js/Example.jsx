@@ -13,7 +13,7 @@ import { Login, Register } from './Pages';
 
 import { Product } from './Pages';
 import { DetailProduct } from './Pages';
-import Pembayaran from './Pages/Pesan/Pembayaran'
+import Pembayaran from './Pages/Pesan/Pembayaran';
 import Pemesanan from './Pages/Pesan/Pemesanan';
 //css
 import './css/main.css';

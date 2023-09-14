@@ -62,8 +62,8 @@
             "Mockery\\": "library/Mockery"
         },
         "files": [
-          "library/helpers.php",
-          "library/Mockery.php"
+            "library/helpers.php",
+            "library/Mockery.php"
         ]
     },
     "autoload-dev": {

@@ -35,7 +35,9 @@
         "symfony/cache": "<6.2"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\HttpFoundation\\": "" },
+        "psr-4": {
+            "Symfony\\Component\\HttpFoundation\\": ""
+        },
         "exclude-from-classmap": [
             "/Tests/"
         ]

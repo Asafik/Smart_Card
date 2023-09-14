@@ -16,12 +16,12 @@ While Laravel does not dictate which JavaScript or CSS pre-processors you use, i
 
 Only the latest major version of Laravel UI receives bug fixes. The table below lists compatible Laravel versions:
 
-| Version | Laravel Version |
-|---- |----|
-| [1.x](https://github.com/laravel/ui/tree/1.x) | 5.8, 6.x |
-| [2.x](https://github.com/laravel/ui/tree/2.x) | 7.x |
-| [3.x](https://github.com/laravel/ui/tree/3.x) | 8.x |
-| [4.x](https://github.com/laravel/ui/tree/4.x) | 9.x, 10.x |
+| Version                                       | Laravel Version |
+| --------------------------------------------- | --------------- |
+| [1.x](https://github.com/laravel/ui/tree/1.x) | 5.8, 6.x        |
+| [2.x](https://github.com/laravel/ui/tree/2.x) | 7.x             |
+| [3.x](https://github.com/laravel/ui/tree/3.x) | 8.x             |
+| [4.x](https://github.com/laravel/ui/tree/4.x) | 9.x, 10.x       |
 
 ### Installation
 
@@ -126,7 +126,7 @@ php artisan ui react
 
 // Generate login / registration scaffolding...
 php artisan ui react --auth
-````
+```
 
 ### Adding Presets
 
@@ -139,6 +139,7 @@ UiCommand::macro('nextjs', function (UiCommand $command) {
     // Scaffold your frontend...
 });
 ```
+
 Then, you may call the new preset via the `ui` command:
 
 ```bash

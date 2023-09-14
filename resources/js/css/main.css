@@ -472,65 +472,65 @@ header {
 
 /* style navbar Pesan/pembayaran dan selesain */
 
-/* style pemesanan page */
-
-.form-control-thick {
-    border-width: 1px; /* Lebar border */
-    border-color: #333; /* Warna border */
+/* Style Pemesanan */
+.form-label {
+    margin-top: 15px;
 }
 
-.animal-card {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center; /* Untuk mengalign vertikal di tengah */
-    margin: 20px;
+/* CSS untuk komponen card */
+.card {
+    border: 1px solid #ccc;
     padding: 20px;
-    border: 1px solid #ddd;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-.img {
-    max-width: 20%;
+
+/* CSS untuk gambar */
+.card img {
+    max-width: 25%;
     height: auto;
-    margin-right: 20px;
 }
 
-.linecard {
-    border-top: 2px solid #000000;
-    margin-top: 20px;
-}
-
-.total {
-    margin-top: 10px;
-}
-
-.action-buttons {
-    display: flex;
-}
-
-.back-button {
-    margin-right: 340px;
-}
-
+/* CSS untuk garis pemisah */
 hr {
-    border: 1px solid #ddd;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    border: none;
+    border-top: 2px solid #000000;
+    margin: 15px 0;
 }
 
-/* sylyle pemesanan page */
-
-/* style Pembayaran */
-/* CSS untuk menghapus margin antara gambar-gambar */
-.shopeepay,
-.gopay,
-.dana,
-.banktf {
-  width: 80px; /* Lebar gambar */
-  height: auto; /* Tinggi gambar menyesuaikan proporsi */
-  margin: 30px; /* Menghapus margin */
+/* CSS untuk teks total harga */
+.total-harga p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left; /* Menjepit teks ke kiri */
+    margin: 20px 0;
 }
 
-/* style pembayanan */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-kembali Button {
+    background-color: #ffa506;
+    color: white;
+    font-weight: bold;
+}
+
+.button-bayar Button {
+    background-color: #ffa506;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style Pemesanan */
 
 /*
 login and Register */

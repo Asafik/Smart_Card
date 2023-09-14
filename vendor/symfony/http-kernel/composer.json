@@ -71,7 +71,9 @@
         "twig/twig": "<2.13"
     },
     "autoload": {
-        "psr-4": { "Symfony\\Component\\HttpKernel\\": "" },
+        "psr-4": {
+            "Symfony\\Component\\HttpKernel\\": ""
+        },
         "exclude-from-classmap": [
             "/Tests/"
         ]
